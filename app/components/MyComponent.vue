@@ -1,7 +1,9 @@
 ﻿<template>
 <div>
-  <p>Some text from a translation file : <span>{{ $ts('pageLevelKey') }}</span></p>
-  <p>Some text from a component "inline" translation : <span>{{ $ts('componentLevelKey') }}</span></p>
+  <pre style="font-size: x-large">
+    ______________Some text from a translation file : <span>{{ $ts('pageLevelKey') }}</span>
+    Some text from a component "inline" translation : <span>{{ $ts('componentLevelKey') }}</span>
+  </pre>
 </div>
 </template>
 
